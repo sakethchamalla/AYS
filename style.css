@@ -43,3 +43,23 @@
     height: 50px;
 }
 
+
+
+#homepage{
+    position: relative;
+    text-align: center;
+    
+    
+}
+
+
+
+
+
+
+
+.textonimage{
+    position: absolute;
+    top:318px;
+    left: 470px;
+}
