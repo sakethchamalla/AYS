@@ -23,7 +23,7 @@
         <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #ffffff;">
             <!-- Navbar content -->
             <div class="container-fluid">
-              <img id="logo" src="AtYourService.jpg" alt="" width="85" height="36" class="d-inline-block align-text-top" />
+             <a href="index.html"><img id="logo" src="AtYourService.jpg" alt="" width="85" height="36" class="d-inline-block align-text-top" /></a> 
     
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,33 +31,31 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
+                  <!-- <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
+                  </li> -->
       
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                    <!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                       aria-expanded="false">
                       Our Services
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                       <li><a class="dropdown-item" href="#">Packers And Movers</a></li>
-                      <!-- <li><hr class="dropdown-divider"></li> -->
+                      <li><hr class="dropdown-divider"></li> 
                       
                       
                       <li><a class="dropdown-item" href="#">Pest Control </a></li>
                       <li><a class="dropdown-item" href="#">Babysitting </a></li>
                       <li><a class="dropdown-item" href="#"> Vehicle Services</a></li>
                       <li><a class="dropdown-item" href="#"> Home organisation</a></li>
-                    </ul>
+                    </ul> -->
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
-                  </li>
-                  <li class="nav-item dropdown">
+                  <!-- <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                  </li> -->
+                  
+                  <!-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                       aria-expanded="false">
                       Account
@@ -72,7 +70,7 @@
                       <li><a class="dropdown-item" href="#">Logout</a></li>
       
                     </ul>
-                  </li>
+                  </li> -->
       
       
       
@@ -83,13 +81,16 @@
           </nav>
 
 
-          <body>
-           
+          
+
+        
+           <br><br>
             <section class="hero is-fullheight">
                 <div class="hero-body">
                     <div class="container has-text-centered">
                         <div class="columns is-8 is-variable ">
                             <div class="column is-two-thirds has-text-left">
+
                                 <h1 class="title is-1">Contact Us</h1>
                                 <p class="is-size-4">
                                     
@@ -97,35 +98,26 @@
                                 
                                 </p>
                                 <br>
-                                <div class="social-media">
-                                    <a href="https://facebook.com" target="_blank" class="button is-light is-large"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                                <!-- <div class="social-media">
+                                    <a href="https://facebook.com" target="_blank" class="button is-light is-large"><i class="fa-brands fa-facebook"></i></a>
                                     <a href="https://instagram.com" target="_blank" class="button is-light is-large"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                                     <a href="https://twitter.com" target="_blank" class="button is-light is-large"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                </div>
+                                </div> -->
                             </div>
-                            <div class="column is-one-third has-text-left">
-                                <div class="field">
-                                    <label class="label">Name</label>
-                                    <div class="control">
-                                        <input class="input is-medium" type="text">
-                                    </div>
+                                <div class="mb-3">
+                                     <label for="exampleFormControlInput1" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Name" required>
                                 </div>
-                                <div class="field">
-                                    <label class="label">Email</label>
-                                    <div class="control">
-                                        <input class="input is-medium" type="text">
-                                    </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
                                 </div>
-                                <div class="field">
-                                    <label class="label">Message</label>
-                                    <div class="control">
-                                        <textarea class="textarea is-medium"></textarea>
-                                    </div>
-                                </div>
-                                <div class="control">
-                                    <button type="submit" class="button is-link is-fullwidth has-text-weight-medium is-medium">Send Message</button>
-                                </div>
-                            </div>
+                              <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                              </div>
+
+                              <button type="submit" class="btn btn-primary">Send Message</button>
                         </div>
                     </div>
                 </div>
@@ -190,8 +182,7 @@
                         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                             <!-- Links -->
                             <h6 class="text-uppercase fw-bold">Our Services</h6>
-                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
-                                style="width: 60px; background-color: #d99e20; height: 2px" />
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px" />
                             <p>
                                 <a href="#!" class="text-black">Packers And Movers</a>
                             </p>
@@ -213,18 +204,18 @@
                             <h6 class="text-uppercase fw-bold">Useful links</h6>
                             <hr class="mb-4 mt-0 d-inline-block mx-auto"
                                 style="width: 60px; background-color: #d99e20; height: 2px" />
-                            <p>
-                                <a href="#!" class="text-black">Your Account</a>
-                            </p>
-                            <p>
-                                <a href="#!" class="text-black">About us </a>
-                            </p>
-                            <p>
-                                <a href="#!" class="text-black">Shipping Rates</a>
-                            </p>
-                            <p>
-                                <a href="#!" class="text-black">Help</a>
-                            </p>
+                                <p>
+                                    <a href="#" target="_blank"class="text-black">Your Account</a>
+                                  </p>
+                                  <p>
+                                    <a href="#" target="_blank" class="text-black">About</a>
+                                  </p>
+                                  <p>
+                                    <a href="#" target="_blank" class="text-black">Our Services</a>
+                                  </p>
+                                  <p>
+                                    <a href="#" target="_blank" class="text-black">Contact Us</a>
+                                  </p>
                         </div>
                         <!-- Grid column -->
 
@@ -234,7 +225,7 @@
                             <h6 class="text-uppercase fw-bold">Contact</h6>
                             <hr class="mb-4 mt-0 d-inline-block mx-auto"
                                 style="width: 60px; background-color: orange; height: 2px" />
-                            <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+                            <p><i class="fas fa-home mr-3"></i>IIIT SriCity</p>
                             <p><i class="fas fa-envelope mr-3"></i> ays@gmail.com</p>
                             <p><i class="fas fa-phone mr-3"></i> + 91 90000 90000</p>
                             <p><i class="fas fa-print mr-3"></i> + 91 80000 80000</p>
