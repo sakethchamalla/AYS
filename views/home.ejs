@@ -16,7 +16,7 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
 
 
     <!-- Font Awesome -->
@@ -27,8 +27,8 @@
 <!-- Material Design Bootstrap -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
 
-    <title>At Your Service</title>
-    <link rel="icon" href="fevicon.ico" type="image/x-icon" />
+    <title>AYS-Home</title>
+    <link rel="icon" href="/logo.jpg" type="image/x-icon" />
   </head>
 
 
@@ -39,7 +39,7 @@
     <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="navbar">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img src="ays.jpg" alt="" width="100" height="44" class="d-inline-block align-text-top">
+          <img src="/ays.jpg" alt="" width="100" height="44" class="d-inline-block align-text-top">
           
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,25 +48,44 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="/home">Home</a>
             </li>
             
            
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="contact_us.html">Contact Us</a>
-            </li>
             
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/home/about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/home/contactus">Contact Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Our Services
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="/home/services/packersandmovers">Packers And Movers</a></li>
+                  <li><a class="dropdown-item" href="/home/services/homecleaning">Home Cleaning</a></li>
+                  <!-- <li><hr class="dropdown-divider"></li> -->
+                  <li><a class="dropdown-item" href="home/services/vehicleservices">Vehicle services</a></li>
+                  <li><a class="dropdown-item" href="home/services/pestcontrol">Pest Control</a></li>
 
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="register.html"><u>Register as Professional</u></a>
-            </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Account
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="/home/account/profile">Profile</a></li>
+                  <li><a class="dropdown-item" href="/home/account/cart">My Cart</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="/home/account/settings">Settings</a></li>
+                  <li><a class="dropdown-item" href="/">Logout</a></li>
 
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="login.html">Login/SignUp</a>
-              
-            </li>
-            
-            
+                </ul>
+              </li>
+           
             
           </ul>
           
@@ -79,65 +98,64 @@
     <div class="image">
       
       
-          <img src="indeximage.jpg" class="d-block w-100" alt="..." height="580px" width="180px">
+      <img src="/indeximage.jpg" class="d-block w-100" alt="..." height="580px" width="180px">
 
-          <h1 class="textonimage" style="color: aliceblue; font-size:90px; font-family: lucida-sans;">At Your Service</h1>
+      <h1 class="textonimage" style="color: aliceblue; font-size:90px; font-family: lucida-sans;">At Your Service</h1>
+
+</div>
+
+<br><br><br>
+
+
+<center><h1 style="font-family:Arial, Helvetica, sans-serif">Our Services</h1></center>
+<br>
+
+<div id="services" class="container">
+  <div class="row">
+    <div class="col">
+
+      <figure class="fig">
+        <a href="/home/services/packersandmovers" ><img id="ac" src="/appliance.svg" height="180px" width="180px">
+        <h5 style="color:black">Packers And Movers</h5></a>
+      </figure>
+       
+    </div>
+
+    <div class="col">
+
+      <figure class="fig">
+        <a href="/home/services/homecleaning" ><img src="/home_cleaning.svg"  height="180px" width="180px">
+        <h5 style="color:black">Home Cleaning</h5></a>
+      </figure>
+     
+    </div>
+    <div class="col">
+      <figure class="fig">
+        <a href="/home/services/vehicleservices" > <img src="/packers_movers.svg"  height="180px" width="180px">
+        <h5 style="color:black">Vehicle Services</h5></a>
+      </figure>
+     
+      
+    </div>
+    <div class="col">
+      <figure class="fig">
+        <a href="/home/services/pestcontrol" ><img src="/pest_control.svg"  height="180px" width="180px">
+        <h5 style="color:black">Pest Control</h5></a>
+      </figure>
     
     </div>
 
-    <br><br><br>
-  
-  
-    <center><h1 style="font-family:Arial, Helvetica, sans-serif">Our Services</h1></center>
-    <br>
 
 
-    <div class="container">
-      <div class="row">
-        <div class="col">
+  </div>
 
-          <figure class="fig">
-            <a href="login.html" ><img id="ac" src="appliance.svg" height="180px" width="180px">
-            <h5 style="color:black">Packers And Movers</h5></a>
-          </figure>
-           
-        </div>
-
-        <div class="col">
-
-          <figure class="fig">
-            <a href="login.html" ><img src="home_cleaning.svg"  height="180px" width="180px">
-            <h5 style="color:black">Home Cleaning</h5></a>
-          </figure>
-         
-        </div>
-        <div class="col">
-          <figure class="fig">
-            <a href="login.html" > <img src="packers_movers.svg"  height="180px" width="180px">
-            <h5 style="color:black">Vehicle Services</h5></a>
-          </figure>
-         
-          
-        </div>
-        <div class="col">
-          <figure class="fig">
-            <a href="login.html" ><img src="pest_control.svg"  height="180px" width="180px">
-            <h5 style="color:black">Pest Control</h5></a>
-          </figure>
-        
-        </div>
+  </div>
+</div>
 
 
+<!--Footer-->
 
-      </div>
-  
-      </div>
-    </div>
-
-
- <!--Footer-->
-
- <div class="my-5" id="foot">
+<div class="my-5" id="foot">
 
   <!-- Footer -->
   <footer
@@ -209,18 +227,19 @@
                 />
                
                 <p>
-                  <a href="login.html" class="text-black">Packers And Movers</a>
+                  <a href="/home/services/packersandmovers
+                  " class="text-black">Packers And Movers</a>
                 </p>
                 <p>
-                  <a href="login.html" class="text-black">Home Cleaning</a>
+                  <a href="/home/services/homecleaning" class="text-black">Home Cleaning</a>
                 </p>
            
             <p>
-              <a href="login.html" class="text-black">Vehicle services</a>
+              <a href="/home/services/vehicleservices" class="text-black">Vehicle services</a>
             </p>
             
             <p>
-              <a href="login.html" class="text-black">Pest control</a>
+              <a href="/home/services/pestcontrol" class="text-black">Pest control</a>
             </p>
           </div>
           <!-- Grid column -->
@@ -234,16 +253,16 @@
                 style="width: 60px; background-color: #d99e20; height: 2px"
                 />
             <p>
-              <a href="login.html" target="_blank"class="text-black">Your Account</a>
+              <a href="/home/account/profile" target="_blank"class="text-black">Your Account</a>
             </p>
             <p>
-              <a href="login.html" target="_blank" class="text-black">About</a>
+              <a href="/home/about" target="_blank" class="text-black">About</a>
             </p>
             <p>
-              <a href="login.html" target="_blank" class="text-black">Our Services</a>
+              <a href="#" target="_blank" class="text-black">Our Services</a>
             </p>
             <p>
-              <a href="login.html" target="_blank" class="text-black">Contact Us</a>
+              <a href="/home/contactus" target="_blank" class="text-black">Contact Us</a>
             </p>
           </div>
           <!-- Grid column -->
@@ -284,8 +303,6 @@
 
 
 
- 
-
 <!-- Optional JavaScript; choose one of the two! -->
 
 <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -296,5 +313,5 @@
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 -->
-  </body>
+</body>
 </html>
